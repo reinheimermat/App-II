@@ -1,0 +1,56 @@
+//Exercicio1
+void main() {
+  String nome = "Nome: Matheus";
+  print(nome);
+  
+  String sobrenome = "Sobrenome: Reinheimer";
+  print(sobrenome);
+  
+  String idade = "Idade: 16";
+  print(idade);
+  
+  String endereco = "Endereço: Av Henrique Bier";
+  print(endereco);
+}
+
+//Exercicio2 
+void main() {
+  int valor = 20;
+  double cinema;
+  cinema = (valor)*4;
+
+//Exercicio3 
+void main() {
+  double baseMaior = 12;
+  double baseMenor = 8;
+  double altura = 5;
+  double area = ((baseMaior + baseMenor) * altura) /2;
+  print('Calculo da área de um trapezio:');
+  print('BaseMaior:12 + BaseMenor:8 x Altura:5 / 2');
+  print('Área do trapezio:');
+  print(area);
+}
+
+//Exercicio4
+void main() {
+  double lado = 7;
+  
+  double area = (lado)*2;
+  print('Aréa do quadrado');
+  print(area);
+}
+
+//Exercicio5
+ void main() {
+  String nome1 = "Matheus";
+  String nome2 = "Furia";
+  print("Nomes:");
+  print(nome1);
+  print(nome2);
+  
+  if(nome1 == nome2){
+    print('Nome Igual!');
+  }else{
+    print('Nome Diferente!');
+  }
+}
