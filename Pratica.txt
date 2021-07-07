@@ -1,0 +1,37 @@
+//Exercicio1
+void main() {
+  
+   for(int i = 0; i<=100; i+=1)
+   {
+    print(i);
+  }
+}
+
+//Exercicio2
+void main() {
+  
+  for( int indice = 0; indice < 11; indice++){
+    print("Lista de n° $indice");
+    
+    if(indice >= 10){
+      print('O Maior numero é $indice');
+    }else{
+      
+    }
+  }
+}
+
+//Exercicio3
+void main() {
+  
+  int calculo = 3;
+  
+  for( int indice = 3; indice < 701; indice++){
+ 
+    if(indice < 1200){
+      print(indice * calculo);
+    }else if(indice == 1200){
+      print("Fim");
+    }
+  }
+}
