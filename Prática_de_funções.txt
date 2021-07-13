@@ -1,0 +1,203 @@
+Prática de Funções:
+
+Nomes e Filiais:
+FL06 - Matheus De Souza Reinheimer
+FL06 - Lucas Santos Lisboa
+Fl06 - Raul Gustavo da Silva Konrath
+
+======================================================
+
+/*1.Escreva uma função que receba dois números inteiros 
+e retorne o menor número.*/
+void main() {
+  
+  menorNum(24, 21);
+}
+
+void menorNum(int a, int b){
+  
+  if(a >= b){
+    print('O numero $b é menor:');
+  }else{
+    print('O numero $a é menor');
+  }
+}
+
+/* 2. Faça uma função que recebe por parâmetro um valor inteiro e positivo 
+   e retorna o valor lógico Verdadeiro caso o valor seja primo e Falso em 
+   caso contrário. */
+
+void main() {
+  
+  valor(7);
+  
+}
+
+void valor(int a ){
+  
+  print("Calculadora de Números Primos:");
+  print("Número: $a");
+  
+  if(a %2 ==1){
+    print("numero $a é Verdadeiro:");
+  }else{
+    print("numero $a é Falso:");
+  }
+}
+
+/* 3. Faça uma função que recebe um valor inteiro e verifica se o valor
+é positivo ou negativo. A função deve retornar um valor booleano*/
+void main() {
+  
+  numero(-9);
+}
+
+void numero(int a){
+  
+  bool testBool = (a < 0);
+  
+  print('O numero $a é negativo:');
+  print(testBool);
+}
+
+/* 4. Faça uma função que leia um número não determinado de valores positivos 
+   e retorna a média aritmética dos mesmos. */
+
+void main(){
+  
+  resMedia (12, 8, 20);
+  print(resMedia);
+}
+
+void resMedia(double a, double  b, double c){
+  
+  double res = (a + b + c)/3;
+  print(res);
+}
+
+/*5. Escreva uma função que recebe, por parâmetro, receba 2 valores inteiros
+e positivo e retorna o somatório desse valor.*/
+
+void main() {
+  
+  calcular(20, 80);
+}
+
+void calcular(int a, int b){
+  
+  int res = a * b;
+  
+  print(res);
+}
+
+/* 6. Faça uma função que recebe a idade de um nadador por parâmetro e 
+retorna , também por parâmetro, a categoria desse nadador de acordo com a 
+tabela abaixo (imagem2): */
+
+void main() {
+  
+  idade(14);
+}
+
+void idade(int a){
+  
+  if(a < 7){
+    print('Infantil A');
+  }else if(a < 10){
+    print('Infantil B');
+  }else if(a < 13){
+    print('Juvenil A');
+  }else if(a < 17){
+    print('Juvenil B');
+  }else{
+    print('Adulto');
+  }
+}
+
+/*7. Faça uma função que recebe um valor inteiro e verifica se o valor é par. 
+A função deve retornar 1 se o número for par e 0 se for ímpar*/
+
+void main() {
+
+  numero(11);
+}
+
+void numero(int a){
+  
+  if(a %2 == 0){
+    print("1");
+  }else{
+    print("0");
+  }
+}
+
+/* 8. Fazer um programa que receba 2 números e informe:
+   a) A soma dos números;
+   b) O produto do primeiro número pelo quadrado do segundo;
+   c) O quadrado do primeiro número;
+   d) O triplo do dobro da soma dos dois números
+   e) A metade do triplo do dobro da soma dos dois números
+   f) O módulo do primeiro número. */
+
+void main() {
+  
+  nums (-10, 12);
+}
+
+void nums(var a, b){
+  
+  print('8. Fazer um programa que receba 2 números e informe:');
+  
+  print('a) A soma dos números;');
+  print(a + b);
+  
+  print('b) O produto do primeiro número pelo quadrado do segundo;');
+  print(a / b/100);
+  
+  print('c) O quadrado do primeiro número;');
+  print(a/100);
+  
+  print('d) O triplo do dobro da soma dos dois números;');
+  print(((a + b)*2)*3);
+  
+  print('e) A metade do triplo do dobro da soma dos dois números;');
+  print((((a + b)*2)*3)/2);
+  
+  print('f) O módulo do primeiro número;');
+  
+  if(a >= 0){
+    print('O módulo de $a é $a');
+  }else{
+    var calcular = (a.abs());
+    print('O modulo de $a é $calcular');
+    
+  }
+}
+
+/* 9-. Faça um programa que leia dois valores e imprima:
+   a) se o primeiro valor for menor que o segundo, a lista de valores do 
+   primeiro até o segundo;
+   b) se o primeiro valor for menor que o segundo a lista de valores do 
+   segundo até o primeiro em ordem decrescente;
+   c) se ambos forem iguais a mensagem "valores iguais". */
+
+void main() {
+  
+  int a = 30;
+  int b = 20;
+  
+  if(a < b){
+    
+    for(int i = a; i <= b; i++){
+      print(i);
+    }
+  }else if(b < a){
+    for(int i = b; i <= a; i++){
+      print(i);
+    }
+  }else if(a == b){
+    print('Valores iguais');
+  }else{
+    
+  }
+}
